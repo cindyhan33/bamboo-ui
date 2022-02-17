@@ -8,4 +8,4 @@ Bamboo UI 是一款基于 Vue 3 和 TypeScript 的 UI 组件库。
 
 注意：**不建议将此 UI 库用于生产环境**
 
-下一节：[安装](/doc/install)
+下一节：[安装](#/doc/install)

@@ -12,4 +12,4 @@ npm install bamboo-ui
 yarn add bamboo-ui
 ```
 
-下一节：[开始使用](/doc/get-started)
+下一节：[开始使用](#/doc/get-started)
