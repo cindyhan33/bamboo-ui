@@ -1,0 +1,15 @@
+require("./lib/wheel.scss");
+require("./index.scss");
+var _vue = require("vue");
+var _AppVue = require("./App.vue");
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _AppVueDefault = _parcelHelpers.interopDefault(_AppVue);
+require("./index.scss");
+var _router = require("./router");
+require("github-markdown-css");
+var _componentsMarkdownVue = require("./components/Markdown.vue");
+var _componentsMarkdownVueDefault = _parcelHelpers.interopDefault(_componentsMarkdownVue);
+const app = _vue.createApp(_AppVueDefault.default);
+app.use(_router.router);
+app.mount("#app");
+app.component("Markdown", _componentsMarkdownVueDefault.default);
